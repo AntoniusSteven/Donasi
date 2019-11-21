@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class buatdonasi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_buatdonasi);
     }
 
-    public void login(View view) {
-        Intent login = new Intent(MainActivity.this, login.class);
-        startActivity(login);
+    public void detail1(View view) {
+        Intent detail1 = new Intent(buatdonasi.this,detail1.class);
+        startActivity(detail1);
     }
 }

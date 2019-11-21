@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/donasi"
+            android:layout_marginTop="-70dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:textStyle="bold"
+            android:textSize="8pt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:text="On the Spot"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 1.0000.000"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="8pt"
+                android:layout_weight=".10"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="terkumpul dari Rp 300.000.000"
+                android:layout_weight=".10"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100 Donasi"
+                android:textStyle="bold"
+                android:textSize="6pt"
+                android:layout_weight=".10"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 Hari Lagi"
+                android:textSize="6pt"
+                android:textStyle="bold"
+                android:layout_weight=".40"/>
+
+        </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donasi Sekarang"
+                android:background="@drawable/button_donasi_sekarang"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_weight=".10"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Nama Penggalang Dana"
+            android:background="@drawable/textview_border"
+            android:textSize="8pt"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="105dp"
+            android:paddingTop="35dp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:background="@color/line"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:text="Cerita"
+                android:textSize="8pt"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".27"
+                android:text="16 Agustus 2019"
+                android:textSize="6pt"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Isi Deskripsi Penggalangan Dana ....."/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selengkapnya"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:background="@color/line"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donasi (1000)"
+            android:textStyle="bold"
+            android:textSize="8pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".80"
+                android:src="@drawable/home"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".80"
+                android:src="@drawable/history"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".80"
+                android:src="@drawable/add"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".80"
+                android:src="@drawable/notif"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".80"
+                android:src="@drawable/user"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
