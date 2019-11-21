@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".history">
+    tools:context=".transfer">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,18 +15,44 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="siap memulai catatan kebaikanmu ?"
+            android:text="Silahkan Transfer Sebesar :"
             android:textSize="10pt"
-            android:textStyle="italic"
-            android:gravity="center"/>
+            android:textAlignment="center"/>
 
-        <Button
-            android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Donasi Sekarang"
-            android:textColor="@color/blue"
-            android:background="@drawable/border_donasi_sekarang"
-            android:layout_gravity="center"/>
+            android:text="Rp 100.000"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer dapat dilakukan di Bank BCA"
+            android:textAlignment="center"
+            android:textSize="10pt"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="@color/line"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="439504321"
+            android:textSize="14pt"
+            android:textAlignment="center"
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="@color/line"
+            android:layout_marginTop="10dp"/>
 
 
         <LinearLayout
@@ -34,7 +60,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_gravity="bottom"
-            android:layout_marginTop="600dp">
+            android:layout_marginTop="500dp">
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -67,5 +93,7 @@
                 android:src="@drawable/user"/>
 
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>
