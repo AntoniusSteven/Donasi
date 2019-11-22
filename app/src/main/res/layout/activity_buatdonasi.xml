@@ -140,9 +140,6 @@
             android:layout_marginTop="10dp"
             android:onClick="detail1"/>
 
-
-
-
     </LinearLayout>
 
 </ScrollView>
